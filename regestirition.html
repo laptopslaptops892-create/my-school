@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imaam AL-nawaawi school</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Imaam AL-nawaawi School</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./teachers.html">Techers</a></li>
+        <li><a href="./regestirition.html">Regestaration</a></li>
+        <li><a href="./contact.html">Contact US</a></li>
+      </ul>
+    </nav>
+    <br />
+    <br /><br />
+    <main>
+      <div class="konteenar">
+        <h1 style="text-align: center; margin-bottom: 20px;">Admition</h1>
+        <form action="">
+          <fieldset>
+            <legend>Student Regestaration form</legend>
+            <label for="name">First name</label> <br />
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter your first name"
+            />
+            <p>
+              <label for="last name">Last name</label> <br />
+              <input
+                type="text"
+                name="last name"
+                id="last name"
+                placeholder="Enter your last name"
+              />
+            </p>
+            <label for="email"> Email</label> <br />
+            <input type="email" id="email" placeholder="exmple@gmail.com" />
+            <br />
+            <label for="tel">Phone number</label> <br />
+            <input type="tel" id="tel" placeholder="61x xx xx xx" /> <br />
+            <input type="radio" name="gender" />
+            <label for="gender">Male</label>
+            <input type="radio" name="gender" />
+            <label for="gender">Female</label> <br />
+            <label for="countery">Choose your village</label> <br />
+            <input
+              type="text"
+              name="countery"
+              id="countery"
+              list="countries"
+              placeholder=" type to search"
+            />
+            <datalist id="countries">
+              <option value="AW meeloow">AW meeloow</option>
+              <option value="Haakaaw">Haakaaw</option>
+              <option value="Muuri">Muuri</option>
+              <option value="Baaraan">Baaraan</option>
+            </datalist> <br>
+            <label for="date">date of your birth </label> <br />
+            <input type="date" id="date" /> <br />
+            <label for="number">Emergency Phone Number</label> <br />
+            <input type="tel" id="number" placeholder="61x xx xx xx" />
+          </fieldset>
+          <button>Submit</button>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <h4><p>&copy; copy all right reserved by Imaam Al-nawaawi.edu.so</p></h4>
+    </footer>
+  </body>
+</html>
